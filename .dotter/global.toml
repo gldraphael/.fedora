@@ -1,0 +1,14 @@
+[helpers]
+
+[default]
+depends = []
+
+[default.files]
+".gitconfig" = "~/.gitconfig"
+".bashrc" = "~/.bashrc"
+".bash_profile" = "~/.bash_profile"
+
+[default.variables]
+
+[settings]
+default_target_type = "automatic"
