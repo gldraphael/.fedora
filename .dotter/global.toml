@@ -4,9 +4,9 @@
 depends = []
 
 [default.files]
-".gitconfig" = "~/.gitconfig"
-".bashrc" = "~/.bashrc"
-".bash_profile" = "~/.bash_profile"
+"home/.gitconfig" = "~/.gitconfig"
+"home/.bashrc" = "~/.bashrc"
+"home/.bash_profile" = "~/.bash_profile"
 "nvim" = "~/.config/nvim"
 
 [default.variables]
