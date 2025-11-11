@@ -31,7 +31,7 @@ export PATH=$PATH:$HOME/.dotnet
 # Homebrew
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 # oh-my-posh!
-eval "$(oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/powerlevel10k_lean.omp.json)"
+eval "$(oh-my-posh init bash --config $(brew --prefix)/share/oh-my-posh/themes/powerlevel10k_lean.omp.json)"
 # fzf
 eval "$(fzf --bash)"
 # carapace
